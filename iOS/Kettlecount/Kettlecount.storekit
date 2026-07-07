@@ -1,0 +1,33 @@
+{
+  "identifier" : "Kettlecount",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : { "_storeKitErrors" : [] },
+  "subscriptionGroups" : [
+    {
+      "id" : "kettlecount_group",
+      "localizations" : [],
+      "name" : "Kettlecount Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "kettlecount_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "Total volume tracking and movement-specific PR alerts", "displayName" : "Kettlecount Pro", "locale" : "en_US" }
+          ],
+          "productID" : "com.shimondeitel.kettlecount.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Kettlecount Pro Monthly",
+          "subscriptionGroupID" : "kettlecount_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 3, "minor" : 0 }
+}
